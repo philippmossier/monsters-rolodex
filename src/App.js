@@ -46,7 +46,7 @@ export default App;
 
 
 /* <Searchbox
-          placeholder="search monsters"
-          handleChange={e =>  // you can put a curly bracket here if you want to return more than just 1 thing
-            this.setState({ searchField: e.target.value }, () => console.log(this.state)) // second argument gets called after the async statechange is done
-          } /> */
+     placeholder="search monsters"
+     handleChange={e =>  // you can put a curly bracket here if you want to return more than just 1 thing
+     this.setState({ searchField: e.target.value }, () => console.log(this.state)) // second argument gets called after the async statechange is done
+} /> */
